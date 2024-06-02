@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      roboto: 'Roboto',
+      rubik: 'Rubik',
+      kanit: 'Kanit',
+      bebas: 'Bebas Neue',
+      teko: 'Teko',
+      cairo: 'Cairo',
+    }
   },
   plugins: [
     require('daisyui'),
